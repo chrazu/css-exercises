@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+.class-style {
+    background-color: #eb34a4;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+/* This is a styling only for the third element,
+implemented as a class. */
+.class-style-third-element {
+    font-size: 36px;
+}
+
+#id-style {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+#fourth-element-style {
+    background-color: #5ffc61;
+    font-size: 24px;
+    font-weight: bold;
+}
