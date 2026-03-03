@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+
+/* Condition:
+Only the `p` elements that are descendants of the `div` 
+element should have a yellow background, red text, a font size of 20px, 
+and center aligned. */
+
+/* class selector w/ descendant combinator (ancestors) */
+
+.container .text {
+    /* background-color: yellow; */
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* type selector w/ descendant combinator (ancestors) */
+div p {
+    background-color: blue;
+}
